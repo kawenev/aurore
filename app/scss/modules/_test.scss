@@ -1,10 +1,13 @@
 $padding: 160px;
 
 .myDiv{
-	background: green;
+	background: grey;
 	padding-left: $padding;
+
 	&.container{
-		background-color: yellow;
-		font-family: comic san;
+		background-color: pink;
+		font-family: helvetica;
+		color: black;
+		font-size: 40px;
 	}
 }
